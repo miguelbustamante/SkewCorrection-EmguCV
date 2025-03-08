@@ -82,27 +82,5 @@ namespace SkewCorrection
             // Save the corrected image
             croppedImage.Save(outputPath);
         }
-        /*
-        public static void CorrectSkew(string imagePath, string outputPath)
-        {
-            using Mat image = CvInvoke.Imread(imagePath, ImreadModes.Grayscale);
-            double skewAngle = DetectSkewAngle(imagePath);
-
-            if (Math.Abs(skewAngle) < 0.5) // No need to rotate
-            {
-                image.Save(outputPath);
-                return;
-            }
-
-            // Apply rotation
-            var center = new System.Drawing.Point(image.Width / 2, image.Height / 2);
-            Mat rotationMatrix = new Mat();
-            CvInvoke.GetRotationMatrix2D(center, -skewAngle, 1.0, rotationMatrix);
-
-            Mat rotatedImage = new Mat();
-            CvInvoke.WarpAffine(image, rotatedImage, rotationMatrix, image.Size);
-
-            rotatedImage.Save(outputPath);
-        }*/
     }
 }
