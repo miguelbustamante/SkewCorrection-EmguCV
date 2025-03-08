@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkewCorrection.Test", "SkewCorrection.Test\SkewCorrection.Test.csproj", "{32B3079C-F4C1-4359-918A-F11FE4ABE2CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkewCorrection", "SkewCorrection\SkewCorrection.csproj", "{804397F6-37E1-4D79-A546-A67B2649D730}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32B3079C-F4C1-4359-918A-F11FE4ABE2CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B3079C-F4C1-4359-918A-F11FE4ABE2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B3079C-F4C1-4359-918A-F11FE4ABE2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B3079C-F4C1-4359-918A-F11FE4ABE2CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804397F6-37E1-4D79-A546-A67B2649D730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804397F6-37E1-4D79-A546-A67B2649D730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804397F6-37E1-4D79-A546-A67B2649D730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804397F6-37E1-4D79-A546-A67B2649D730}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
